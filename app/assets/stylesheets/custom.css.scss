@@ -3,8 +3,6 @@
 
 @import "bootstrap";
 
-// And finally Bootswatch style
-@import "bootswatch/united/bootswatch";
 
 @import url(//fonts.googleapis.com/css?family=Ubuntu);
 
@@ -4384,13 +4382,13 @@ input[type="submit"].btn.btn-mini {
   padding-right: 20px;
   padding-left: 20px;
   background-color: #d44413;
-  background-image: -moz-linear-gradient(top, #ce4213, #dd4814);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ce4213), to(#dd4814));
-  background-image: -webkit-linear-gradient(top, #ce4213, #dd4814);
-  background-image: -o-linear-gradient(top, #ce4213, #dd4814);
-  background-image: linear-gradient(to bottom, #ce4213, #dd4814);
+  background-image: -moz-linear-gradient(top, #248f24, #196419);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#248f24), to(#196419));
+  background-image: -webkit-linear-gradient(top, #248f24, #196419);
+  background-image: -o-linear-gradient(top, #248f24, #196419);
+  background-image: linear-gradient(to bottom, #248f24, #196419);
   background-repeat: repeat-x;
-  border: 1px solid #c64012;
+  border: 1px solid green;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -4429,7 +4427,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 20px;
   font-weight: 200;
   color: #ffffff;
-  text-shadow: 0 1px 0 #ce4213;
+  text-shadow: 0 1px 0 #0e3a11;
 }
 
 .navbar .brand:hover,
@@ -4625,7 +4623,7 @@ input[type="submit"].btn.btn-mini {
   padding: 10px 15px 10px;
   color: #ffffff;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ce4213;
+  text-shadow: 0 1px 0 #0e3a11;
 }
 
 .navbar .nav .dropdown-toggle .caret {
@@ -4636,7 +4634,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #a5360f;
+  background-color: #0e5d14;
 }
 
 .navbar .nav > .active > a,
