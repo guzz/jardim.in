@@ -27,10 +27,19 @@ gem 'jquery-rails'
 group :development do
 	gem 'haml-rails'
 	gem 'rspec-rails'
+	gem 'guard-rspec'
+	# gem 'ruby-growl'
+	# gem 'growl-rspec'
 end
 
 group :test do
+	gem 'capybara', '2.0'
 	gem 'rspec-rails'
+	gem 'rb-inotify'
+	gem 'libnotify'
+	gem 'guard-spork'
+	gem 'childprocess'
+	gem 'spork'
 end
 
 # To use ActiveModel has_secure_password
