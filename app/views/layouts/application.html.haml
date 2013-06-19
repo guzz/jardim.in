@@ -5,19 +5,8 @@
   = stylesheet_link_tag 'application', media: 'all'
   = javascript_include_tag 'application'
   = csrf_meta_tags
-%body{:id => "top", :style => "margin-top: 0px;"}
-  .navbar.navbar-fixed-top
-    .navbar-inner
-      .container
-        = link_to "Jardins Suspensos", "/pages/home", :class => "brand"
-        #main-menu.nav-collapse.collapse
-          %ul{:id => "main-menu-left", :class => "nav"}
-            %li
-              = link_to "Home", "/pages/home"
-            %li
-              = link_to "Contato", "/pages/contato"
-            %li
-              = link_to "Sobre", "/pages/sobre"
+= render 'layouts/header'
 .container{:style => " padding-top: 80px;"}
   %header{:id => "overview", :class => "jumbotron subhead"}
     = yield
+= render 'layouts/footer'

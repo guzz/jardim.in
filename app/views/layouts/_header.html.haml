@@ -1,0 +1,18 @@
+%body{:id => "top", :style => "margin-top: 0px;"}
+  .navbar.navbar-fixed-top
+    .navbar-inner
+      .container
+        = link_to "Jardins Suspensos", "/", :class => "brand"
+        #main-menu.nav-collapse.collapse
+          %ul{:id => "main-menu-left", :class => "nav"}
+            %li
+              = link_to "Home", root_path
+            %li
+              = link_to "Contato", contato_path
+            %li
+              = link_to "Sobre", sobre_path
+          %ul{:id => "main-menu-right", :class => "nav pull-right"}
+            %li
+              = link_to "Cadastro", "#"
+            %li
+              = link_to "Login", "#"

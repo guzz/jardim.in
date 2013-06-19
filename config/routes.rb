@@ -1,7 +1,9 @@
 JardimIn::Application.routes.draw do
-  get "pages/home"
-  get "pages/sobre"
-  get "pages/contato"
+  root :to => 'pages#home'
+  
+
+  match 'sobre' => 'pages#sobre'
+  match 'contato' => 'pages#contato'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
